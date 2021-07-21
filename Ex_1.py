@@ -17,8 +17,18 @@ for a in range(1,9):
         i += 1
         print(a,"x",i,"=",a*i)
 
-#-----------------------------------------------
+#강사님이 알려준 방법
 for a in range(2,10):
     print('------------------------------') #보기 좋게 추가
     for i in range(1,10):
         print(a,"x",i,"=",a*i)
+
+
+#별을 찍어 봅시다!!
+num = int(input("하늘에 별이 얼마나 ?"))
+
+for i in range(num):
+#    for j in range(num - i):
+#        print("*",end='')
+#    print()
+    print("*" * (num - i))
