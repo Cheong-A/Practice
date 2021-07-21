@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccc32e96-d9c9-4315-be56-e001c659e28c" name="디폴트 변경 목록" comment="while, for문 복습 !" />
+    <list default="true" id="ccc32e96-d9c9-4315-be56-e001c659e28c" name="디폴트 변경 목록" comment="list 2개일 경우 예제" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +129,49 @@
       <option name="project" value="LOCAL" />
       <updated>1626866980953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="while, for문 복습 !">
+      <created>1626867058244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867058244</updated>
+    </task>
+    <task id="LOCAL-00007" summary="#default">
+      <created>1626867115361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867115361</updated>
+    </task>
+    <task id="LOCAL-00008" summary="while, for문 복습 !">
+      <created>1626867302603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867302603</updated>
+    </task>
+    <task id="LOCAL-00009" summary="list 2개일 경우 예제">
+      <created>1626867321198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867321198</updated>
+    </task>
+    <task id="LOCAL-00010" summary="list 2개일 경우 예제">
+      <created>1626867341399</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867341399</updated>
+    </task>
+    <task id="LOCAL-00011" summary="list 2개일 경우 예제">
+      <created>1626867365079</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867365079</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +186,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="#default" />
     <MESSAGE value="while, for문 복습 !" />
-    <option name="LAST_COMMIT_MESSAGE" value="while, for문 복습 !" />
+    <MESSAGE value="list 2개일 경우 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="list 2개일 경우 예제" />
   </component>
 </project>
