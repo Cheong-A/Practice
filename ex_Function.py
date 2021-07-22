@@ -13,3 +13,9 @@ b = int(input("정수입력:"))
 add= lambda a, b: a+b
 
 print(add(5,6))
+
+
+#길이로 순서 정리!
+strings = ['yoon', 'kim', 'jessica', 'jeong']
+strings.sort(key=lambda s:len(s))
+print(strings)
