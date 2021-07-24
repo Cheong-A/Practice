@@ -55,3 +55,11 @@ D_news2={}
 for word in news2.split():
     D_news2[word] = D_news2.get(word,0) +1 #(넣은 단어가 있으면 출력, 없으면 0)+1
 print(D_news2)
+
+print('-------------------------------------------')
+#100 이하의 자연수 중에서 5의 배수를 모두 찾아서 출력
+result=[]
+for i in range(1,101):
+    if i % 5 == 0:
+        result.append(i)
+print(result)
