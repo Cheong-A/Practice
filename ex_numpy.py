@@ -18,9 +18,9 @@ print("arr2의 dtype: ", arr1.dtype) # arr2의 원소의 타입. # int64 : integ
 print("arr2의 itemsize: ", arr1.itemsize)# arr2의 원소의 사이즈(bytes) # 64bits = 8B
 print("arr2의 nbytes: ", arr1.nbytes)# itemsize * size # numpy array가 차지하는 메모리 공간
 #----------------------------------------------#
-np.zeros() #원소가 0인 array를 생성
-np.ones() #원소가 1인 array를 생성
-np.arange() #특정 범위의 원소를 가짐
+a = np.zeros(1) #원소가 0인 array를 생성
+b = np.ones(1) #원소가 1인 array를 생성
+c = np.arange(1) #특정 범위의 원소를 가짐
 #----------------------------------------------#
 arr1 = np.arange(10)
 arr1[:3] # 앞에서부터 원소 3개 slicing
