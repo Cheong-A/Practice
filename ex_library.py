@@ -26,7 +26,7 @@ arr1 = np.arange(10)
 arr1[:3] # 앞에서부터 원소 3개 slicing
 
 
-data = pd.read_csv("C:/Users/blue_/Downloads/fast/강의 배포용/강의교안/data/iris.csv") # 파일 불러오기
+data = pd.read_csv("..data/iris.csv") # 파일 불러오기
 print(data)
 # 숫자로 하드 코딩
 data.loc[data["Species"] == "Iris-setosa","Species"] = 0
@@ -34,7 +34,7 @@ data.loc[data["Species"] == "Iris-versicolor","Species"] = 1
 data.loc[data["Species"] == "Iris-virginica","Species"] = 2
 data
 
-data2 = pd.read_csv("C:/Users/blue_/Downloads/fast/강의 배포용/강의교안/data/kaggle_survey_2020_responses.csv")
+data2 = pd.read_csv("..data/kaggle_survey_2020_responses.csv")
 print(data2)
 # 박사 학위 소지자이면서, 대한민국 국적을 가진 사람
 data2[(data2["Q4"] == "Doctoral degree") & (data2["Q3"]== "South Korea")]
