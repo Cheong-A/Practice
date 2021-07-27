@@ -45,5 +45,5 @@ print(train1[train1.isnull().any(axis=1)])
 
 # 범주형 column, one-hot encoding
 # "Sex" / "Embarked" feature
-train_OHE = pd.get_dummies(data=train1, columns=["Sex", "Embarked"])
+train_OHE = pd.get_dummies(data=train1, columns = ["Sex", "Embarked"])
 print(train_OHE)
