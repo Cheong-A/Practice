@@ -7,23 +7,26 @@ headers = {
 
 
 def crawler(sort1, day):
-        if sort1 in '1':
-            sort1='cur'
-        else:
-            sort1 ='pnt'
-        url = 'https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=' + sort1 + '&date=' + day
-        print(url)
+    #정렬기준 숫자로 받아 문자로 변환해주기
+    if sort1 in '1':
+        sort1 = 'cur'
+    else:
+        sort1 = 'pnt'
+    url = 'https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=' + sort1 + '&date=' + day
+    print(url)
 
-        data = requests.get(url, headers=headers)
-        soup = BeautifulSoup(data.text, 'html.parser')
-        movies = soup.select("#old_content > table > tbody > tr")
+    data = requests.get(url, headers=headers)
+    soup = BeautifulSoup(data.text, 'html.parser')
+    movies = soup.select("#old_content > table > tbody > tr")
 
-        for movie in movies:
-            movie_name = movie.select_one("td.title > div > a")
-            movie_point = movie.select_one("td.point")
-            if movie_name is not None:
-                ranking = movie.select_one("td:nth-child(1) > img")["alt"]
-                print(ranking, movie_name.text, movie_point.text)
+    #영화 제목, 평점 크롤링, None값일때 제외 조건 추가(오류방지)
+    for movie in movies:
+        movie_name = movie.select_one("td.title > div > a")
+        movie_point = movie.select_one("td.point")
+        if movie_name is not None:
+            ranking = movie.select_one("td:nth-child(1) > img")["alt"]
+            print(ranking, movie_name.text, movie_point.text)
+
 
 
 # 메인함수
