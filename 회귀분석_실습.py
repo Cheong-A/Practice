@@ -133,4 +133,45 @@ plt.legend()
 
 
 ###다중선형회귀분석 실습
+#crim, rm, lstat 세개의 변수를 통해 다중회귀적합
 
+x_data=boston[['CRIM','RM','LSTAT']] ##변수 여러개
+print(x_data.head())
+
+#상수항 추가
+x_data1 = sm.add_constant(x_data, has_constant='add')
+#회귀모델 적합
+multi_model = sm.OLS(target,x_data1)
+fitted_multi_model=multi_model.fit()
+
+fitted_multi_model.summary()
+
+
+##단순선형회귀모델의 회귀계수와 비교
+print(fitted_model1.params)
+print(fitted_model2.params)
+print(fitted_model3.params) ##단순선형회귀분석의 회귀 계수(R2)와 비교
+
+#다중선형회귀모델의 회귀 계수
+print(fitted_multi_model.params)
+
+#행렬연산을 통해 beta구하기
+from numpy import linalg ##행렬연산을 통해 beta구하기
+ba=linalg.inv((np.dot(x_data1.T,x_data1))) ## (X'X)-1
+np.dot(np.dot(ba,x_data1.T),target) ##(X'X)-1X'y
+
+pred4=fitted_multi_model.predict(x_data1)
+
+#residual plot
+fitted_multi_model.resid.plot()
+plt.xlabel("residual_number")
+plt.show()
+
+#앞에 그렸던 잔차모델과 같이 그려보기
+
+fitted_model1.resid.plot(label="crim")
+fitted_model2.resid.plot(label="rm")
+fitted_model3.resid.plot(label="lstat")
+fitted_multi_model.resid.plot(label="full")
+plt.legend()
+plt.show()
