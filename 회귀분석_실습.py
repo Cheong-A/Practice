@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
-
+import seaborn as sns
 # 현재경로 확인
 print(os.getcwd())
 
@@ -144,7 +144,7 @@ x_data1 = sm.add_constant(x_data, has_constant='add')
 multi_model = sm.OLS(target,x_data1)
 fitted_multi_model=multi_model.fit()
 
-fitted_multi_model.summary()
+print(fitted_multi_model.summary())
 
 
 ##단순선형회귀모델의 회귀계수와 비교
@@ -175,3 +175,68 @@ fitted_model3.resid.plot(label="lstat")
 fitted_multi_model.resid.plot(label="full")
 plt.legend()
 plt.show()
+
+#---------------------------------------------------#
+#crim, rm, lstat, b, tax, age, zn, nox, indus 변수를 통한 다중선형회귀분석
+
+x_data2=boston[['CRIM','RM','LSTAT','B','TAX','AGE','ZN','NOX','INDUS']]  ##변수 추가
+print(x_data2.head())
+
+#상수항 추가
+x_data2_ = sm.add_constant(x_data2, has_constant='add')
+#회귀모델 적합
+multi_model2 = sm.OLS(target,x_data2_)
+fitted_multi_model2 = multi_model2.fit()
+
+print(fitted_multi_model2.summary())
+#변수 3개만 추가한 모델의 회귀 계수
+print(fitted_multi_model.params)
+#Full변수
+print(fitted_multi_model2.params)
+
+#dase모델과 Full모델의 잔차비교
+fitted_multi_model.resid.plot(label="full")
+fitted_multi_model2.resid.plot(label="full_add")
+plt.legend()
+plt.show()
+
+#---------------------------------------------------------------#
+##상관계수/산점도를 통해 다중공선성 확인
+#상관행렬
+x_data2.corr()
+#상관행렬 시각화 해서 보기
+
+cmap = sns.light_palette("darkgray", as_cmap=True)
+sns.heatmap(x_data2.corr(), annot=True, cmap=cmap)
+plt.show()
+
+#변수별 산점도 시각화
+sns.pairplot(x_data2)
+#plt.show()
+
+##VIF를 통한 다중공선성 확인
+
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+
+vif = pd.DataFrame()
+vif["VIF Factor"] = [variance_inflation_factor(
+    x_data2.values, i) for i in range(x_data2.shape[1])]
+vif["features"] = x_data2.columns
+print(vif)
+print('-------------------------------------')
+#nox 변수 제거후(X_data3) VIF 확인
+vif = pd.DataFrame()
+x_data3= x_data2.drop('NOX',axis=1)
+vif["VIF Factor"] = [variance_inflation_factor(
+    x_data3.values, i) for i in range(x_data3.shape[1])]
+vif["features"] = x_data3.columns
+print(vif)
+
+print('-------------------------------------')
+#rm 변수 제거후(X_data4) VIF 확인
+vif = pd.DataFrame()
+x_data4= x_data3.drop('RM',axis=1)
+vif["VIF Factor"] = [variance_inflation_factor(
+    x_data4.values, i) for i in range(x_data4.shape[1])]
+vif["features"] = x_data4.columns
+print(vif)
