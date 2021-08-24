@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccc32e96-d9c9-4315-be56-e001c659e28c" name="디폴트 변경 목록" comment="list 2개일 경우 예제" />
+    <list default="true" id="ccc32e96-d9c9-4315-be56-e001c659e28c" name="디폴트 변경 목록" comment="#21.08.24">
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/.ipynb_checkpoints/ram_price-checkpoint.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Boston_house.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Regression_1_boston_housing.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Regression_2_ToyotaCorolla.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Regression_3_abalone.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/ToyotaCorolla.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/ram_price.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/회귀_data/wdbc.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/회귀분석_실습2.py" beforeDir="false" afterPath="$PROJECT_DIR$/회귀분석_실습2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +21,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="XHTML File" />
+        <option value="HTML4 File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1vcclhFAUgrIr7DVXb1Yq0uWADE" />
   <component name="ProjectLevelVcsManager">
@@ -31,11 +54,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.ex_list">
+  <component name="RunManager" selected="Python.회귀분석_실습2">
+    <configuration name="Crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Ex_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +97,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="회귀분석_실습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회귀분석_실습.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="회귀분석_실습2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회귀분석_실습2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,8 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex_list" />
+        <item itemvalue="Python.회귀분석_실습2" />
+        <item itemvalue="Python.회귀분석_실습" />
         <item itemvalue="Python.Ex_1" />
+        <item itemvalue="Python.ex_list" />
+        <item itemvalue="Python.Crawling" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +264,217 @@
       <option name="project" value="LOCAL" />
       <updated>1626867365079</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="#default">
+      <created>1626867429936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867429936</updated>
+    </task>
+    <task id="LOCAL-00013" summary="#while, for문 복습&#10;#구구단">
+      <created>1626867625917</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626867625917</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#while, for문 복습&#10;#구구단">
+      <created>1626868104045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1626868104045</updated>
+    </task>
+    <task id="LOCAL-00015" summary="#while, for문 복습&#10;#구구단&#10;#단어 갯수 찾기">
+      <created>1626869365922</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1626869365922</updated>
+    </task>
+    <task id="LOCAL-00016" summary="#while, for문 복습&#10;#구구단&#10;#단어 갯수 찾기">
+      <created>1626872383660</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1626872383660</updated>
+    </task>
+    <task id="LOCAL-00017" summary="#21.07.22&#10;#함수 연습">
+      <created>1626961451116</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626961451116</updated>
+    </task>
+    <task id="LOCAL-00018" summary="#21.07.22&#10;#함수 연습">
+      <created>1626962151162</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1626962151162</updated>
+    </task>
+    <task id="LOCAL-00019" summary="#21.07.24&#10;#numpy 연습">
+      <created>1627147656385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1627147656385</updated>
+    </task>
+    <task id="LOCAL-00020" summary="#21.07.24">
+      <created>1627147692925</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627147692925</updated>
+    </task>
+    <task id="LOCAL-00021" summary="#21.07.26">
+      <created>1627227432100</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1627227432100</updated>
+    </task>
+    <task id="LOCAL-00022" summary="#21.07.26">
+      <created>1627258366613</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1627258366613</updated>
+    </task>
+    <task id="LOCAL-00023" summary="#21.07.26">
+      <created>1627258697239</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1627258697239</updated>
+    </task>
+    <task id="LOCAL-00024" summary="#21.07.26">
+      <created>1627258726104</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1627258726104</updated>
+    </task>
+    <task id="LOCAL-00025" summary="#21.07.27">
+      <created>1627390145187</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1627390145187</updated>
+    </task>
+    <task id="LOCAL-00026" summary="#21.07.27">
+      <created>1627390912089</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1627390912089</updated>
+    </task>
+    <task id="LOCAL-00027" summary="#21.07.27">
+      <created>1627534410433</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1627534410433</updated>
+    </task>
+    <task id="LOCAL-00028" summary="#21.07.29">
+      <created>1627540905593</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1627540905593</updated>
+    </task>
+    <task id="LOCAL-00029" summary="#21.07.29">
+      <created>1627543734856</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1627543734856</updated>
+    </task>
+    <task id="LOCAL-00030" summary="#21.07.29">
+      <created>1627558984932</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1627558984932</updated>
+    </task>
+    <task id="LOCAL-00031" summary="#21.07.30">
+      <created>1627650111691</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1627650111691</updated>
+    </task>
+    <task id="LOCAL-00032" summary="#21.08.01">
+      <created>1627793803142</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627793803142</updated>
+    </task>
+    <task id="LOCAL-00033" summary="#21.08.01">
+      <created>1627793808792</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1627793808792</updated>
+    </task>
+    <task id="LOCAL-00034" summary="#21.08.02">
+      <created>1627882599023</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1627882599024</updated>
+    </task>
+    <task id="LOCAL-00035" summary="#21.08.02">
+      <created>1627888772245</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1627888772245</updated>
+    </task>
+    <task id="LOCAL-00036" summary="#21.08.03&#10;조회순 추가 + 검색시 타입에러 발생 예외 처리 하기">
+      <created>1627965774667</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1627965774667</updated>
+    </task>
+    <task id="LOCAL-00037" summary="#폴더변경">
+      <created>1629437129205</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1629437129205</updated>
+    </task>
+    <task id="LOCAL-00038" summary="#21.08.20&#10;회귀분석코드 실습">
+      <created>1629442220011</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1629442220011</updated>
+    </task>
+    <task id="LOCAL-00039" summary="#21.08.20">
+      <created>1629442228216</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1629442228216</updated>
+    </task>
+    <task id="LOCAL-00040" summary="#21.08.20">
+      <created>1629442968146</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1629442968146</updated>
+    </task>
+    <task id="LOCAL-00041" summary="#21.08.24">
+      <created>1629784186280</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1629784186280</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,11 +487,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#default" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="while, for문 복습 !" />
     <MESSAGE value="list 2개일 경우 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="list 2개일 경우 예제" />
+    <MESSAGE value="#default" />
+    <MESSAGE value="#while, for문 복습&#10;#구구단" />
+    <MESSAGE value="#while, for문 복습&#10;#구구단&#10;#단어 갯수 찾기" />
+    <MESSAGE value="#21.07.22&#10;#함수 연습" />
+    <MESSAGE value="#21.07.24&#10;#numpy 연습" />
+    <MESSAGE value="#21.07.24" />
+    <MESSAGE value="#21.07.26" />
+    <MESSAGE value="#21.07.27" />
+    <MESSAGE value="#21.07.29" />
+    <MESSAGE value="#21.07.30" />
+    <MESSAGE value="#21.08.01" />
+    <MESSAGE value="#21.08.02" />
+    <MESSAGE value="#21.08.03&#10;조회순 추가 + 검색시 타입에러 발생 예외 처리 하기" />
+    <MESSAGE value="#폴더변경" />
+    <MESSAGE value="#21.08.20&#10;회귀분석코드 실습" />
+    <MESSAGE value="#21.08.20" />
+    <MESSAGE value="#21.08.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="#21.08.24" />
   </component>
 </project>
