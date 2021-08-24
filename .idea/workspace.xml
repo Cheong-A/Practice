@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc32e96-d9c9-4315-be56-e001c659e28c" name="디폴트 변경 목록" comment="#21.08.24">
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/.ipynb_checkpoints/ram_price-checkpoint.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Boston_house.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Regression_1_boston_housing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Regression_2_ToyotaCorolla.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/Regression_3_abalone.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/ToyotaCorolla.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/ram_price.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/회귀_data/wdbc.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/회귀분석_실습2.py" beforeDir="false" afterPath="$PROJECT_DIR$/회귀분석_실습2.py" afterDir="false" />
     </list>
@@ -474,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629784186280</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="#21.08.24">
+      <created>1629785842234</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1629785842234</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
