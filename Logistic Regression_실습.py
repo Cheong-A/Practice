@@ -124,3 +124,14 @@ print('TPR:',perf_eval(cm_test)[0])
 print('TNR:',perf_eval(cm_test)[1])
 print('ACC:',perf_eval(cm_test)[2])
 print('F1:',perf_eval(cm_test)[3])
+
+#모델 결과물 확인
+#사용된 hyperparameter (사용자 지정 변수)
+#계수 : 1단위 증가할 때 로그아드의 변화량
+#odd ratio 확인 : 1단위 증가할 때 변화하는 성공확률의 비율
+model.get_params
+
+pd.DataFrame(np.concatenate((model.coef_.T, np.exp(model.coef_).T),axis=1),
+             index=breast_cancer.feature_names,
+             columns=['coefficient','odd ratio'])
+model.intercept_
